@@ -1,0 +1,35 @@
+Python 3.8.8 (tags/v3.8.8:024d805, Feb 19 2021, 13:18:16) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> num = 13
+>>> if num%3== 0:
+	print('number is divisible by 3', num)
+	if num%5==0:
+		print('number is divisible by both 3 and 5',num)
+	else:
+		print('2_if_else_block')
+else:
+	print('1_if_else paired else block')
+
+	
+1_if_else paired else block
+>>> a =  9
+>>> if a==1:
+	print('number is 1')
+	if a==2:
+		print('number is 2')
+		if a==3:
+			print('number is 3')
+			if a==4
+			
+SyntaxError: invalid syntax
+>>> a =  9
+ if a==1:
+	print('number is 1')
+	if a==2:
+		print('number is 2')
+		if a==3:
+			print('number is 3')
+			if a==4:
+				
+SyntaxError: multiple statements found while compiling a single statement
+>>> 
